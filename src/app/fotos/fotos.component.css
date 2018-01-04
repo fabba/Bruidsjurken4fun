@@ -1,0 +1,90 @@
+.foto-home {
+  min-width: 10%;
+  max-width: 30%;
+  height: auto;
+  width: auto\9; /* ie8 */
+}
+
+.demo-card-square.mdl-card {
+  width: 320px;
+  height: 400px;
+  margin: 10px;
+}
+.page1 {
+  color: #fff;
+  background:
+    url('../../assets/fotos-page1.jpg');
+  margin: 5px;
+}
+.page2 {
+  color: #fff;
+  background:
+    url('../../assets/fotos-page2.jpg') center / cover;
+  margin: 5px;
+}
+.page3 {
+  color: #fff;
+  background:
+    url('../../assets/fotos-page3.jpg') top / cover;
+  margin: 5px;
+}
+.page4 {
+  color: #fff;
+  background:
+    url('../../assets/fotos-page4.jpg') top / cover;
+  margin: 5px;
+}
+.page5 {
+  color: #fff;
+  background:
+    url('../../assets/fotos-page5.jpg') top / cover;
+  margin: 5px;
+}
+.page6 {
+  color: #fff;
+  background:
+    url('../../assets/fotos-page6.jpg') top / cover;
+  margin: 5px;
+}
+.page7 {
+  color: #fff;
+  background:
+    url('../../assets/fotos-page7.jpg') top / cover;
+  margin: 5px;
+}
+.page8 {
+  color: #fff;
+  background:
+    url('../../assets/fotos-page8.jpg') top / cover;
+  margin: 5px;
+}
+.page9 {
+  color: #fff;
+  background:
+    url('../../assets/fotos-page9.jpg') center / cover;
+  margin: 5px;
+}
+.page10 {
+  color: #fff;
+  background:
+    url('../../assets/fotos-page10.jpg') top / cover;
+  margin: 5px;
+}
+.page11 {
+  color: #fff;
+  background:
+    url('../../assets/fotos-page11.jpg') center / cover;
+  margin: 5px;
+}
+.page12 {
+  color: #fff;
+  background:
+    url('../../assets/fotos-page12.jpg') top / cover;
+  margin: 5px;
+}
+.page13 {
+  color: #fff;
+  background:
+    url('../../assets/fotos-page13.jpg') top / cover;
+  margin: 5px;
+}
