@@ -37,6 +37,22 @@ app.engine('html', ngExpressEngine({
   ]
 }));
 
+var sm = require('sitemap');
+var sitemap = sm.createSitemap ({
+  hostname: 'http://www.bruidsjurken4fun.nl/',
+  cacheTime: 600000,  // 600 sec cache period
+  urls: [
+    { url: '/#/home',  changefreq: 'daily', priority: 0.7 },
+    { url: '/#/fotos',  changefreq: 'daily', priority: 0.1 },
+    { url: '/#/price',  changefreq: 'daily', priority: 0.1 },
+    { url: '/#/contact',  changefreq: 'daily', priority: 0.1 },
+  ]
+});
+
+app.get('/sitemap.xml', function(req, res) {
+  res.header('Content-Type', 'application/xml');
+  res.send( sitemap.toString() );
+});
 app.set('view engine', 'html');
 app.set('views', join(DIST_FOLDER, 'browser'));
 
