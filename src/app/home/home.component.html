@@ -5,10 +5,20 @@
 
   Bij <i itemprop="name" >bruidsjurken4fun</i> kun je samen met een stel meiden, dames, vrouwen, zussen of vriendinnen lekker bruidsjurken passen voor de lol. <br>
 
+  <i itemprop="name" >Bruidsjurken4fun</i> is voor vrijgezellen party's ook ideaal.<br>
+
   Een bruidsjurken party duurt ongeveer twee uur en is inclusief koffie, thee en feestelijke bubbeltjeswijn.<br>
 </div>
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-  <img class="foto-home" src="../../assets/foto-home.jpg" itemprop="url">
+<div class="foto-home">
+  <slideshow
+             [minHeight]="'525px'"
+             [autoPlay]="true"
+             [showArrows]="false"
+             [imageUrls]="imageSources"
+             [lazyLoad]="imageSources?.length > 1"
+             [autoPlayWaitForLazyLoad]="true"
+             [backgroundPosition]="'top center'">
+  </slideshow>
 </div>
 <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
 <meta itemprop="addressLocality" content="ZuidoostBeemster">

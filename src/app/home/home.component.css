@@ -7,9 +7,3 @@
     border-radius: 30%;
   }
 }
-
-@media (max-width:855px) {
-  .foto-home {
-    display: none;
-  }
-}
