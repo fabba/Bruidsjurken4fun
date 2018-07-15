@@ -10,10 +10,58 @@
   height: 400px;
   margin: 10px;
 }
+.pageNew1 {
+  color: #fff;
+  background:
+          url('../../assets/Als_fotomodel.JPG')  top / cover;
+  margin: 5px;
+}
+.pageNew2 {
+  color: #fff;
+  background:
+          url('../../assets/de_nichtjes_op_party.JPG')  top / cover;
+  margin: 5px;
+}
+.pageNew3 {
+  color: #fff;
+  background:
+          url('../../assets/Een_hoedje_staat_mij_toch_ook_wel.JPG')  center / cover;
+  margin: 5px;
+}
+.pageNew4 {
+  color: #fff;
+  background:
+          url('../../assets/Met_mijn_bruidegom.JPG')  center / cover;
+  margin: 5px;
+}
+.pageNew5 {
+  color: #fff;
+  background:
+          url('../../assets/modern_Brons.JPG')  top / cover;
+  margin: 5px;
+}
+.pageNew6 {
+  color: #fff;
+  background:
+          url('../../assets/statiefoto.jpg')  center / cover;
+  margin: 5px;
+}
+.pageNew7 {
+  color: #fff;
+  background:
+          url('../../assets/Stijlvol_op_mijn_vrijgezellenuitje.JPG')  center / cover;
+  margin: 5px;
+}
+.pageNew8 {
+  color: #fff;
+  background:
+          url('../../assets/zo_moeder_zo_dochter.JPG')  center / cover;
+  margin: 5px;
+}
 .page1 {
   color: #fff;
   background:
-    url('../../assets/fotos-page1.jpg');
+    url('../../assets/fotos-page1.jpg')  center / cover;
   margin: 5px;
 }
 .page2 {
