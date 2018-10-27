@@ -13,7 +13,9 @@ export class HomeComponent implements OnInit {
       '../../assets/home_3.JPG',
       '../../assets/home_4.JPG',
       '../../assets/home_5.JPG',
-      '../../assets/home_6.JPG'];
+      '../../assets/home_6.JPG',
+      '../../assets/home_7.JPG',
+      '../../assets/home_9.JPG'];
 
   constructor() { }
 
