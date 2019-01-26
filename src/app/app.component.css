@@ -1,3 +1,8 @@
 .active {
   background-color: yellow;
 }
+
+main {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background-color: #f7deef;
+}
