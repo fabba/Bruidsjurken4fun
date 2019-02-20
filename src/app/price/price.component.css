@@ -1,12 +1,11 @@
 @media (min-width:855px) {
-  .foto-home {
+  .foto-price {
 
     margin: 5px;
     max-width: 70%;
     height: 350px;
     width: auto \9; /* ie8 */
     border-radius: 40%;
-    background: url('../../assets/home_5.JPG') top / cover;
   }
 }
 
