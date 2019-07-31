@@ -8,14 +8,13 @@ import {Component, OnInit} from '@angular/core';
 export class HomeComponent implements OnInit {
 
   public imageSources: string[] = [
-      '../../assets/home_4.JPG',
-      '../../assets/home_3.JPG',
-      '../../assets/home_8.JPG',
-      '../../assets/home_5.JPG',
-      '../../assets/home_9.JPG',
       '../../assets/home_2.JPG',
-      '../../assets/home_10.JPG',
-      '../../assets/home_7.JPG'
+      '../../assets/home_13.JPG',
+      '../../assets/home_14.JPG',
+      '../../assets/home_15.JPG',
+      '../../assets/home_16.jpg',
+      '../../assets/home_17.jpg',
+      '../../assets/home_18.jpg'
   ];
 
   constructor() { }
