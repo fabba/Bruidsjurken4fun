@@ -10,6 +10,54 @@
   height: 400px;
   margin: 10px;
 }
+.pageNewNew1 {
+  color: #fff;
+  background:
+          url('../../assets/blauwe_wand.JPG')  top / cover;
+  margin: 5px;
+}
+.pageNewNew2 {
+  color: #fff;
+  background:
+          url('../../assets/drie_generaties.JPG')  top / cover;
+  margin: 5px;
+}
+.pageNewNew3 {
+  color: #fff;
+  background:
+          url('../../assets/in_het_rood.JPG')  center / cover;
+  margin: 5px;
+}
+.pageNewNew4 {
+  color: #fff;
+  background:
+          url('../../assets/jaaaaa.JPG')  center / cover;
+  margin: 5px;
+}
+.pageNewNew5 {
+  color: #fff;
+  background:
+          url('../../assets/moeder_en_dochters.JPG')  top / cover;
+  margin: 5px;
+}
+.pageNewNew6 {
+  color: #fff;
+  background:
+          url('../../assets/moeder_en_dochter2.JPG')  center / cover;
+  margin: 5px;
+}
+.pageNewNew7 {
+  color: #fff;
+  background:
+          url('../../assets/mooie_foto_maken.JPG')  center / cover;
+  margin: 5px;
+}
+.pageNewNew8 {
+  color: #fff;
+  background:
+          url('../../assets/vliegen.JPG')  center / cover;
+  margin: 5px;
+}
 .pageNew1 {
   color: #fff;
   background:
