@@ -1,13 +1,14 @@
 @media (min-width:855px) {
   .foto-home {
     margin: 5px;
-    max-width: 40%;
-    height: 300px;
+    max-width: 70%;
+    height: 350px;
     width: auto \9; /* ie8 */
-    position: relative;
-    top: 25%;
-    left: 30%;
-    border-radius: 20%;
-    background: url('../../assets/contact-photo.jpg') top / cover;
+    border-radius: 40%;
+    background: url('../../assets/IMG_9519.JPG') top / cover;
+  }
+
+  a {
+    color: -webkit-link !important
   }
 }

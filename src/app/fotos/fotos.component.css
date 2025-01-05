@@ -1,204 +1,25 @@
-.foto-home {
-  min-width: 10%;
-  max-width: 30%;
-  height: auto;
-  width: auto\9; /* ie8 */
+.image-collage {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 15px;
 }
 
-.demo-card-square.mdl-card {
-  width: 320px;
-  height: 400px;
-  margin: 10px;
+.image-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-.pageNewNew1 {
-  color: #fff;
-  background:
-          url('../../assets/blauwe_wand.JPG')  top / cover;
-  margin: 5px;
+
+.image-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
 }
-.pageNewNew2 {
-  color: #fff;
-  background:
-          url('../../assets/drie_generaties.JPG')  top / cover;
-  margin: 5px;
-}
-.pageNewNew3 {
-  color: #fff;
-  background:
-          url('../../assets/in_het_rood.JPG')  center / cover;
-  margin: 5px;
-}
-.pageNewNew4 {
-  color: #fff;
-  background:
-          url('../../assets/jaaaaa.JPG')  center / cover;
-  margin: 5px;
-}
-.pageNewNew5 {
-  color: #fff;
-  background:
-          url('../../assets/moeder_en_dochters.JPG')  top / cover;
-  margin: 5px;
-}
-.pageNewNew6 {
-  color: #fff;
-  background:
-          url('../../assets/moeder_en_dochter2.JPG')  center / cover;
-  margin: 5px;
-}
-.pageNewNew7 {
-  color: #fff;
-  background:
-          url('../../assets/mooie_foto_maken.JPG')  center / cover;
-  margin: 5px;
-}
-.pageNewNew8 {
-  color: #fff;
-  background:
-          url('../../assets/vliegen.JPG')  center / cover;
-  margin: 5px;
-}
-.pageNew1 {
-  color: #fff;
-  background:
-          url('../../assets/Als_fotomodel.JPG')  top / cover;
-  margin: 5px;
-}
-.pageNew2 {
-  color: #fff;
-  background:
-          url('../../assets/de_nichtjes_op_party.JPG')  top / cover;
-  margin: 5px;
-}
-.pageNew3 {
-  color: #fff;
-  background:
-          url('../../assets/met_oma.JPG')  center / cover;
-  margin: 5px;
-}
-.pageNew4 {
-  color: #fff;
-  background:
-          url('../../assets/Met_mijn_bruidegom.JPG')  center / cover;
-  margin: 5px;
-}
-.pageNew5 {
-  color: #fff;
-  background:
-          url('../../assets/modern_Brons.JPG')  top / cover;
-  margin: 5px;
-}
-.pageNew6 {
-  color: #fff;
-  background:
-          url('../../assets/statiefoto.jpg')  center / cover;
-  margin: 5px;
-}
-.pageNew7 {
-  color: #fff;
-  background:
-          url('../../assets/Stijlvol_op_mijn_vrijgezellenuitje.JPG')  center / cover;
-  margin: 5px;
-}
-.pageNew8 {
-  color: #fff;
-  background:
-          url('../../assets/zo_moeder_zo_dochter.JPG')  center / cover;
-  margin: 5px;
-}
-.page1 {
-  color: #fff;
-  background:
-    url('../../assets/fotos-page1.jpg')  center / cover;
-  margin: 5px;
-}
-.page2 {
-  color: #fff;
-  background:
-    url('../../assets/fotos-page2.jpg') center / cover;
-  margin: 5px;
-}
-.page3 {
-  color: #fff;
-  background:
-    url('../../assets/fotos-page3.jpg') top / cover;
-  margin: 5px;
-}
-.page4 {
-  color: #fff;
-  background:
-    url('../../assets/fotos-page4.jpg') top / cover;
-  margin: 5px;
-}
-.page5 {
-  color: #fff;
-  background:
-    url('../../assets/fotos-page5.jpg') top / cover;
-  margin: 5px;
-}
-.page6 {
-  color: #fff;
-  background:
-    url('../../assets/fotos-page6.jpg') top / cover;
-  margin: 5px;
-}
-.page7 {
-  color: #fff;
-  background:
-    url('../../assets/fotos-page7.jpg') top / cover;
-  margin: 5px;
-}
-.page8 {
-  color: #fff;
-  background:
-    url('../../assets/fotos-page8.jpg') top / cover;
-  margin: 5px;
-}
-.page9 {
-  color: #fff;
-  background:
-    url('../../assets/fotos-page9.jpg') center / cover;
-  margin: 5px;
-}
-.page10 {
-  color: #fff;
-  background:
-    url('../../assets/fotos-page10.jpg') top / cover;
-  margin: 5px;
-}
-.page11 {
-  color: #fff;
-  background:
-    url('../../assets/fotos-page11.jpg') center / cover;
-  margin: 5px;
-}
-.page12 {
-  color: #fff;
-  background:
-    url('../../assets/fotos-page12.jpg') top / cover;
-  margin: 5px;
-}
-.page13 {
-  color: #fff;
-  background:
-    url('../../assets/fotos-page13.jpg') top / cover;
-  margin: 5px;
-}
-.page14 {
-  color: #fff;
-  background:
-          url('../../assets/fotos-page14.jpg') top / cover;
-  margin: 5px;
-}
-.page15 {
-  color: #fff;
-  background:
-          url('../../assets/fotos-page15.jpg') top / cover;
-  margin: 5px;
-}
-.page16 {
-  color: #fff;
-  background:
-          url('../../assets/fotos-page16.jpg') top / cover;
-  margin: 5px;
+
+.image-item:hover img {
+  transform: scale(1.05);
 }
