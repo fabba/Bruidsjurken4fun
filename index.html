@@ -1,1 +1,363 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="google-site-verification" content="deGkTYgK7Q8rcNY0BNlwtx6lIV7VDl_GuZslTKhxr-g"/><title>Bruidsjurken4fun</title><base href="'https://fabba.github.io/bruidsjurken4fun'"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" type="image/x-icon" href="favicon.ico"><script defer="defer" src="assets/material.min.js"></script><link href="assets/material.min.css" rel="stylesheet"><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><link href="styles.d41d8cd98f00b204e980.bundle.css" rel="stylesheet"/></head><body><app-root itemscope itemtype="http://schema.org/LocalBusiness">Loading...</app-root><script type="text/javascript" src="inline.318b50c57b4eba3d437b.bundle.js"></script><script type="text/javascript" src="polyfills.e1574e765317e0c36d83.bundle.js"></script><script type="text/javascript" src="main.c5c6b48b6851aafbf43d.bundle.js"></script></body></html>
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="google-site-verification" content="deGkTYgK7Q8rcNY0BNlwtx6lIV7VDl_GuZslTKhxr-g"><title>Bruidsjurken4fun</title><base href="'https://fabba.github.io/bruidsjurken4fun'"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" type="image/x-icon" href="favicon.ico"><script defer="defer" src="assets/material.min.js"></script><link href="assets/material.min.css" rel="stylesheet"><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><link href="styles.d41d8cd98f00b204e980.bundle.css" rel="stylesheet"><style ng-transition="my-app">.active[_ngcontent-c0]{background-color:#ff0}main[_ngcontent-c0]{font-family:"Comic Sans MS",cursive,sans-serif;background-color:#f7deef}</style><style ng-transition="my-app">@media (min-width:855px){.foto-home[_ngcontent-c1]{left:0;margin:5px;max-width:70%;height:350px;width:auto\9;border-radius:30%}}</style><style ng-transition="my-app">.display-none[_ngcontent-c2] {
+      display: none !important; }
+
+    .slideshow-container[_ngcontent-c2] {
+      position: relative;
+      display: block;
+      margin: auto;
+      height: 100%;
+      width: 100%;
+      overflow: hidden; }
+      .slideshow-container[_ngcontent-c2]   .hide-slide[_ngcontent-c2] {
+        visibility: hidden;
+        position: absolute;
+        top: -100vw;
+        left: -100vw;
+        opacity: 0; }
+      .slideshow-container[_ngcontent-c2]   .slides[_ngcontent-c2] {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        visibility: visible;
+        opacity: 1;
+        display: block; }
+        .slideshow-container[_ngcontent-c2]   .slides.selected[_ngcontent-c2] {
+          left: 0; }
+        .slideshow-container[_ngcontent-c2]   .slides.left-slide[_ngcontent-c2] {
+          left: -100%; }
+        .slideshow-container[_ngcontent-c2]   .slides.right-slide[_ngcontent-c2] {
+          left: 100%; }
+        .slideshow-container[_ngcontent-c2]   .slides.slide-in-left[_ngcontent-c2] {
+          left: 0;
+          -webkit-animation: slideInLeft 0.5s cubic-bezier(0.42, 0, 0.58, 1);
+                  animation: slideInLeft 0.5s cubic-bezier(0.42, 0, 0.58, 1); }
+        .slideshow-container[_ngcontent-c2]   .slides.slide-in-right[_ngcontent-c2] {
+          left: 0;
+          -webkit-animation: slideInRight 0.5s cubic-bezier(0.42, 0, 0.58, 1);
+                  animation: slideInRight 0.5s cubic-bezier(0.42, 0, 0.58, 1); }
+        .slideshow-container[_ngcontent-c2]   .slides.slide-out-left[_ngcontent-c2] {
+          left: -100%;
+          -webkit-animation: slideOutLeft 0.5s cubic-bezier(0.42, 0, 0.58, 1);
+                  animation: slideOutLeft 0.5s cubic-bezier(0.42, 0, 0.58, 1); }
+        .slideshow-container[_ngcontent-c2]   .slides.slide-out-right[_ngcontent-c2] {
+          left: 100%;
+          -webkit-animation: slideOutRight 0.5s cubic-bezier(0.42, 0, 0.58, 1);
+                  animation: slideOutRight 0.5s cubic-bezier(0.42, 0, 0.58, 1); }
+        .slideshow-container[_ngcontent-c2]   .slides.link[_ngcontent-c2] {
+          cursor: pointer; }
+      .slideshow-container[_ngcontent-c2]   .caption[_ngcontent-c2] {
+        position: absolute;
+        bottom: 0;
+        padding: 10px;
+        width: 100%; }
+      .slideshow-container[_ngcontent-c2]   .arrow-container[_ngcontent-c2] {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: auto;
+        cursor: pointer;
+        background-size: 100%;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent));
+        background-image: linear-gradient(transparent, transparent);
+        z-index: 100;
+        -webkit-user-select: none;
+           -moz-user-select: none;
+            -ms-user-select: none;
+                user-select: none; }
+        .slideshow-container[_ngcontent-c2]   .arrow-container[_ngcontent-c2]:before {
+          display: block;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          opacity: 0;
+          width: 100%;
+          z-index: -100;
+          -webkit-transition: opacity 0.45s;
+          transition: opacity 0.45s; }
+        .slideshow-container[_ngcontent-c2]   .arrow-container.prev[_ngcontent-c2] {
+          left: 0; }
+          .slideshow-container[_ngcontent-c2]   .arrow-container.prev[_ngcontent-c2]:before {
+            background-image: -webkit-gradient(linear, right top, left top, from(transparent), to(rgba(0, 0, 0, 0.75)));
+            background-image: linear-gradient(to left, transparent, rgba(0, 0, 0, 0.75));
+            content: ''; }
+        .slideshow-container[_ngcontent-c2]   .arrow-container.next[_ngcontent-c2] {
+          right: 0; }
+          .slideshow-container[_ngcontent-c2]   .arrow-container.next[_ngcontent-c2]:before {
+            background-image: -webkit-gradient(linear, left top, right top, from(transparent), to(rgba(0, 0, 0, 0.75)));
+            background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.75));
+            content: ''; }
+        .slideshow-container[_ngcontent-c2]   .arrow-container[_ngcontent-c2]   .arrow[_ngcontent-c2] {
+          display: block;
+          margin: auto;
+          width: 30px;
+          height: 30px;
+          background: transparent;
+          text-indent: -9999px;
+          border-top: 2px solid #f2f2f2;
+          border-left: 2px solid #f2f2f2;
+          -webkit-transition: all .3s ease-in-out;
+          transition: all .3s ease-in-out;
+          text-decoration: none;
+          color: transparent;
+          -webkit-user-select: none;
+             -moz-user-select: none;
+              -ms-user-select: none;
+                  user-select: none; }
+          .slideshow-container[_ngcontent-c2]   .arrow-container[_ngcontent-c2]   .arrow[_ngcontent-c2]:before {
+            display: block;
+            height: 200%;
+            width: 200%;
+            margin-left: -50%;
+            margin-top: -50%;
+            content: "";
+            -webkit-transform: rotate(45deg);
+                    transform: rotate(45deg); }
+          .slideshow-container[_ngcontent-c2]   .arrow-container[_ngcontent-c2]   .arrow.prev[_ngcontent-c2] {
+            -webkit-transform: rotate(-45deg);
+                    transform: rotate(-45deg);
+            position: relative;
+            left: 20px;
+            margin-right: 10px; }
+          .slideshow-container[_ngcontent-c2]   .arrow-container[_ngcontent-c2]   .arrow.next[_ngcontent-c2] {
+            -webkit-transform: rotate(135deg);
+                    transform: rotate(135deg);
+            position: relative;
+            right: 20px;
+            margin-left: 10px; }
+      .slideshow-container[_ngcontent-c2]   .slick-dots[_ngcontent-c2] {
+        display: block;
+        bottom: 15px;
+        z-index: 1;
+        text-align: center;
+        position: absolute;
+        padding: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto; }
+        .slideshow-container[_ngcontent-c2]   .slick-dots[_ngcontent-c2]   li[_ngcontent-c2] {
+          display: inline;
+          margin: 0;
+          padding: 0; }
+          .slideshow-container[_ngcontent-c2]   .slick-dots[_ngcontent-c2]   li[_ngcontent-c2]   button[_ngcontent-c2] {
+            border: none;
+            background: none;
+            text-indent: -9999px;
+            font-size: 0;
+            width: 20px;
+            height: 20px;
+            outline: none;
+            position: relative;
+            z-index: 1;
+            cursor: pointer; }
+            .slideshow-container[_ngcontent-c2]   .slick-dots[_ngcontent-c2]   li[_ngcontent-c2]   button[_ngcontent-c2]:before {
+              content: '';
+              width: 4px;
+              height: 4px;
+              background: var(--dot-color, #FFF);
+              border-radius: 4px;
+              display: block;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              -webkit-transform: translate(-50%, -50%);
+                      transform: translate(-50%, -50%);
+              opacity: .7;
+              -webkit-transition: all .5s ease-out;
+              transition: all .5s ease-out; }
+          .slideshow-container[_ngcontent-c2]   .slick-dots[_ngcontent-c2]   li.slick-active[_ngcontent-c2]   button[_ngcontent-c2]:before {
+            -webkit-transform: translate(-50%, -50%) scale(1.4);
+                    transform: translate(-50%, -50%) scale(1.4);
+            opacity: 1; }
+
+    @media screen and (min-width: 768px) {
+      .slideshow-container[_ngcontent-c2]   .arrow-container[_ngcontent-c2]:hover:before {
+        opacity: 1; }
+      .slideshow-container[_ngcontent-c2]   .arrow-container[_ngcontent-c2]:hover   .arrow[_ngcontent-c2] {
+        border-width: 4px; }
+      .slideshow-container[_ngcontent-c2]   .arrow-container[_ngcontent-c2]   .arrow[_ngcontent-c2]:hover {
+        border-width: 4px; } }
+
+    @-webkit-keyframes slideInRight {
+      0% {
+        left: -100%; }
+      100% {
+        left: 0; } }
+
+    @keyframes slideInRight {
+      0% {
+        left: -100%; }
+      100% {
+        left: 0; } }
+
+    @-webkit-keyframes slideInLeft {
+      0% {
+        left: 100%; }
+      100% {
+        left: 0; } }
+
+    @keyframes slideInLeft {
+      0% {
+        left: 100%; }
+      100% {
+        left: 0; } }
+
+    @-webkit-keyframes slideOutRight {
+      0% {
+        left: 0; }
+      100% {
+        left: -100%; } }
+
+    @keyframes slideOutRight {
+      0% {
+        left: 0; }
+      100% {
+        left: -100%; } }
+
+    @-webkit-keyframes slideOutLeft {
+      0% {
+        left: 0; }
+      100% {
+        left: 100%; } }
+
+    @keyframes slideOutLeft {
+      0% {
+        left: 0; }
+      100% {
+        left: 100%; } }
+
+    .loader[_ngcontent-c2] {
+      position: absolute;
+      left: 50%;
+      margin-left: -20px;
+      top: 50%;
+      margin-top: -20px;
+      border: 5px solid #f3f3f3;
+      border-top: 5px solid #555;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      -webkit-animation: spin 1s linear infinite;
+              animation: spin 1s linear infinite; }
+
+    @-webkit-keyframes spin {
+      0% {
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg); }
+      100% {
+        -webkit-transform: rotate(360deg);
+                transform: rotate(360deg); } }
+
+    @keyframes spin {
+      0% {
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg); }
+      100% {
+        -webkit-transform: rotate(360deg);
+                transform: rotate(360deg); } }</style></head><body><app-root itemscope="" itemtype="http://schema.org/LocalBusiness" _nghost-c0="" ng-version="5.2.11"><div _ngcontent-c0="" class="mdl-layout mdl-js-layout  mdl-layout--fixed-header">
+  <header _ngcontent-c0="" class="mdl-layout__header">
+    <div _ngcontent-c0="" class="mdl-layout__header-row">
+      
+      <span _ngcontent-c0="" class="mdl-layout-title">Bruidsjurken4fun</span>
+      
+      <div _ngcontent-c0="" class="mdl-layout-spacer"></div>
+      
+      <nav _ngcontent-c0="" class="mdl-navigation mdl-layout--large-screen-only">
+        <a _ngcontent-c0="" class="mdl-navigation__link active" href="#/home"><i _ngcontent-c0="" class="material-icons">home</i>Home</a>
+        <a _ngcontent-c0="" class="mdl-navigation__link" href="#/fotos"><i _ngcontent-c0="" class="material-icons">image</i>Foto's</a>
+        <a _ngcontent-c0="" class="mdl-navigation__link" href="#/price"><i _ngcontent-c0="" class="material-icons">attach_money</i>Prijzenlijst</a>
+        <a _ngcontent-c0="" class="mdl-navigation__link" href="#/contact"><i _ngcontent-c0="" class="material-icons">email</i>Contact</a>
+      </nav>
+    </div>
+  </header>
+  <div _ngcontent-c0="" class="mdl-layout__drawer">
+    <nav _ngcontent-c0="" class="mdl-navigation">
+      <a _ngcontent-c0="" class="mdl-navigation__link active" href="#/home"><i _ngcontent-c0="" class="material-icons">home</i>Home</a>
+      <a _ngcontent-c0="" class="mdl-navigation__link" href="#/fotos"><i _ngcontent-c0="" class="material-icons">image</i>Foto's</a>
+      <a _ngcontent-c0="" class="mdl-navigation__link" href="#/price"><i _ngcontent-c0="" class="material-icons">attach_money</i>Prijzenlijst</a>
+      <a _ngcontent-c0="" class="mdl-navigation__link" href="#/contact"><i _ngcontent-c0="" class="material-icons">email</i>Contact</a>
+    </nav>
+  </div>
+
+  <main _ngcontent-c0="" class="mdl-layout__content">
+    <router-outlet _ngcontent-c0=""></router-outlet><app-home _nghost-c1=""><div _ngcontent-c1="" style="margin: 5px;">
+  <h5 _ngcontent-c1="" style="color: red"> Het mooiste uitje! </h5>
+
+  Vaak mag en kan je alleen een bruidsjurk passen als je gaat trouwen. Maar nu niet meer!<br _ngcontent-c1="">
+  Bij <i _ngcontent-c1="" itemprop="name">bruidsjurken4fun</i> kun je samen met vriendinnen, zussen, collega’s, moeder, oma of voor een vrijgezellenparty  bruidsjurken passen voor de lol.<br _ngcontent-c1=""><br _ngcontent-c1="">
+
+  Een bruidsjurken party duurt ongeveer twee uur en is inclusief koffie, thee en feestelijke bubbeltjeswijn. En is zo leuk.
+</div>
+<div _ngcontent-c1="" class="foto-home">
+  <slideshow _ngcontent-c1="" backgroundsize="contain" _nghost-c2="">
+    <div _ngcontent-c2="" class="slideshow-container" style="height:525px;">
+      
+      <!----><a _ngcontent-c2="" class="slides selected" style="background-image:url(../../assets/IMG_1249.JPG);background-size:contain;background-position:center center;background-repeat:no-repeat;" href="" title="">
+        <!---->
+        <!---->
+      </a><a _ngcontent-c2="" class="slides hide-slide" style="background-image:url(../../assets/aablauw.jpg);background-size:contain;background-position:center center;background-repeat:no-repeat;" href="" title="">
+        <!---->
+        <!---->
+      </a><a _ngcontent-c2="" class="slides hide-slide" style="background-image:url(../../assets/broekpak.JPG);background-size:contain;background-position:center center;background-repeat:no-repeat;" href="" title="">
+        <!---->
+        <!---->
+      </a><a _ngcontent-c2="" class="slides hide-slide" style="background-image:url(../../assets/foto1.JPG);background-size:contain;background-position:center center;background-repeat:no-repeat;" href="" title="">
+        <!---->
+        <!---->
+      </a><a _ngcontent-c2="" class="slides hide-slide" style="background-image:url(../../assets/friends.JPG);background-size:contain;background-position:center center;background-repeat:no-repeat;" href="" title="">
+        <!---->
+        <!---->
+      </a><a _ngcontent-c2="" class="slides hide-slide" style="background-image:url(../../assets/gekleurd.JPG);background-size:contain;background-position:center center;background-repeat:no-repeat;" href="" title="">
+        <!---->
+        <!---->
+      </a><a _ngcontent-c2="" class="slides hide-slide" style="background-image:url(../../assets/handbalteam.JPG);background-size:contain;background-position:center center;background-repeat:no-repeat;" href="" title="">
+        <!---->
+        <!---->
+      </a><a _ngcontent-c2="" class="slides hide-slide" style="background-image:url(../../assets/IMG_6599.JPG);background-size:contain;background-position:center center;background-repeat:no-repeat;" href="" title="">
+        <!---->
+        <!---->
+      </a><a _ngcontent-c2="" class="slides hide-slide" style="background-image:url(../../assets/rianne.JPG);background-size:contain;background-position:center center;background-repeat:no-repeat;" href="" title="">
+        <!---->
+        <!---->
+      </a><a _ngcontent-c2="" class="slides hide-slide" style="background-image:url(../../assets/samen1.JPG);background-size:contain;background-position:center center;background-repeat:no-repeat;" href="" title="">
+        <!---->
+        <!---->
+      </a><a _ngcontent-c2="" class="slides hide-slide" style="background-image:url(../../assets/selfie.jpg);background-size:contain;background-position:center center;background-repeat:no-repeat;" href="" title="">
+        <!---->
+        <!---->
+      </a>
+      
+      <div _ngcontent-c2="" class="arrow-container prev display-none">
+        <i _ngcontent-c2="" class="arrow prev" title="Previous">« previous</i>
+      </div>
+      
+      <div _ngcontent-c2="" class="arrow-container next display-none">
+        <i _ngcontent-c2="" class="arrow next" title="Next">next »</i>
+      </div>
+      
+      <!---->
+    </div>
+  </slideshow>
+</div>
+<span _ngcontent-c1="" itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+<meta _ngcontent-c1="" content="ZuidoostBeemster" itemprop="addressLocality">
+<meta _ngcontent-c1="" content="Noord-Holland" itemprop="addressRegion">
+<meta _ngcontent-c1="" content="Nederland" itemprop="addressCountry"></span>
+<meta _ngcontent-c1="" content="http://www.bruidsjurken4fun.nl/" itemprop="url">
+<meta _ngcontent-c1="" content="" itemprop="telephone">
+<meta _ngcontent-c1="" content="info@bruidsjurken4fun.nl" itemprop="email">
+<meta _ngcontent-c1="" content="€ 18" itemprop="priceRange">
+</app-home>
+  </main>
+</div>
+</app-root><script type="text/javascript" src="inline.318b50c57b4eba3d437b.bundle.js"></script><script type="text/javascript" src="polyfills.e1574e765317e0c36d83.bundle.js"></script><script type="text/javascript" src="main.c5c6b48b6851aafbf43d.bundle.js"></script></body></html>
